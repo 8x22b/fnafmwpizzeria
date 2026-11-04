@@ -1,0 +1,39 @@
+{
+  "structure": "discountdiner",
+  "position_fixes": [
+    {
+      "pos": [
+        6,
+        4,
+        27
+      ],
+      "action": "replace",
+      "new": "fnafmw:brown_facade_bricks",
+      "properties": {}
+    }
+  ],
+  "additions": [
+    {
+      "pos": [
+        6,
+        4,
+        28
+      ],
+      "new": "fnafmw:open_neon_sign",
+      "properties": {
+        "facing": "north",
+        "alt": "false",
+        "lit": "true",
+        "powered": "false"
+      }
+    }
+  ],
+  "notes": [
+    "Big entrance door part=0 is at (6,1,27), facing=south, 3x3 opening x=5..7 / y=1..3. The facade is a 1-block-thick wall at z=27; the air cell outside it is z=28.",
+    "The only existing open_neon_sign was at (6,4,27); it sat IN the facade wall cell and had replaced a brown_facade_bricks block. That cell is restored to fnafmw:brown_facade_bricks so the wall block really stays behind the sign (no hole in the facade).",
+    "New sign is at (6,4,28) = door origin + 1 block outward (+z), y = origin.y + 3, centred over the doorway. facing=north points at the wall: the open_neon_sign model is a double-sided zero-thickness panel pinned to the block edge in the facing direction (z=15.98 for facing=south), so facing=north puts the panel exactly on the wall's south face (z=28.0) with a 0.06 overhang, like a mounted sign. The texture is pre-mirrored on the back face, so it reads 'OPEN' from the street.",
+    "Properties alt=false, lit=true, powered=false all exist in the jar blockstate (open_neon_sign has 48 variants, facing x lit x powered x alt).",
+    "Cardboard boxes: all 26 were audited (12 small + 14 large; the map has no medium boxes). Every one has a non-air support directly below: oak_planks, a party_table (14,2,19), or another large_cardboard_box (26,2,20 on 26,1,20, which is a full-block box so the 2-high stack is physically fine and was already in the old map). None is inside a locker, inside a door opening, blocking a passage, or an impossible stack, and all positions match the old NBT. No box changes were made.",
+    "Other signs: exit_sign at (6,4,26) wall=true rotation=0 is correct - its panel occupies the south 3px of its cell, i.e. flush on the inside face of the front wall (z=27) and reading into the room. out_of_order_sign at (11,1,16) has wall=false, i.e. a standing sign, so it is not wall-mounted. hazard_sign at (24,2,10) is left unchanged: its facing=west points away from the east log wall (x=25) and its panel is edge-pinned on the facing side, so the plate hangs about 0.94 blocks in front of the wall instead of being flush; the same reversal affects every flat wall decal in this baked map (see report). This structure has no pizza/restroom neon signs."
+  ]
+}

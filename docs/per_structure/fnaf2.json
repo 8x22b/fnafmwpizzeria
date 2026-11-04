@@ -1,0 +1,1080 @@
+{
+  "structure": "fnaf2",
+  "block_overrides": {
+    "management_wanted:door_frame_single": "fnafmw:retro_wall_blue_black_trim",
+    "management_wanted:door_frame_top": "fnafmw:retro_wall_blue_black_trim",
+    "management_wanted:door_frame_side_left": "fnafmw:retro_wall_blue_black_trim",
+    "management_wanted:door_frame_side_right": "fnafmw:retro_wall_blue_black_trim",
+    "management_wanted:door_frame_corner_left": "fnafmw:retro_wall_blue_black_trim",
+    "management_wanted:door_frame_corner_right": "fnafmw:retro_wall_blue_black_trim",
+    "management_wanted:door_frame_3x_3_bottom": "fnafmw:retro_wall_blue_black_trim",
+    "management_wanted:door_frame_3x_3_side": "fnafmw:retro_wall_blue_black_trim",
+    "management_wanted:door_frame_3x_3_corner": "fnafmw:retro_wall_blue_black_trim",
+    "management_wanted:door_frame_3x_3_top": "fnafmw:retro_wall_blue_black_trim"
+  },
+  "property_rules": {
+    "management_wanted:backstage_shelf": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:bathroom_sign_female": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "set": {
+        "lit": "true"
+      }
+    },
+    "management_wanted:bathroom_sign_male": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "set": {
+        "lit": "true"
+      }
+    },
+    "management_wanted:cardboard_box": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:children_drawings_2": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:children_drawings_3": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:desk_horizontal_middle": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:fan": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:hanging_lamp": {
+      "set": {
+        "face": "ceiling",
+        "facing": "down"
+      }
+    },
+    "management_wanted:hanging_wall_wires": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:hanging_wires": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:hanging_wires_alt": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:hazard_sign": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:locker": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:monitor": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:nebraska_poster": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:open_neon_sign": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "set": {
+        "lit": "true"
+      }
+    },
+    "management_wanted:paper_pal": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:retro_monitor": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:safety_rules": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:small_cardboard_box": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:toy_freddy_poster": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:wall_divider": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:wall_wires": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:wall_wires_curved": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:wall_wires_curved_long": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:wall_wires_curved_thin": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:wall_wires_dangling": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:wall_wires_thin": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:door_frame_single": {
+      "set": {
+        "face": "wall"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:door_frame_top": {
+      "set": {
+        "face": "wall"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:door_frame_side_left": {
+      "set": {
+        "face": "wall"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:door_frame_side_right": {
+      "set": {
+        "face": "wall"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:door_frame_corner_left": {
+      "set": {
+        "face": "wall"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:door_frame_corner_right": {
+      "set": {
+        "face": "wall"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:door_frame_3x_3_bottom": {
+      "set": {
+        "face": "wall"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:door_frame_3x_3_side": {
+      "set": {
+        "face": "wall"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:door_frame_3x_3_corner": {
+      "set": {
+        "face": "wall"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:door_frame_3x_3_top": {
+      "set": {
+        "face": "wall"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:tiled_light_facade_bricks": {
+      "set": {
+        "face": "wall"
+      }
+    },
+    "management_wanted:normal_light": {
+      "set": {
+        "lit": "false"
+      }
+    },
+    "management_wanted:normal_light_on": {
+      "set": {
+        "lit": "true"
+      }
+    },
+    "management_wanted:shingle_stair": {
+      "facing_map": {
+        "north": "east",
+        "east": "south",
+        "south": "west",
+        "west": "north"
+      },
+      "drop": [
+        "half",
+        "shape",
+        "waterlogged"
+      ]
+    },
+    "management_wanted:wood_table_bottom_left": {
+      "set": {
+        "modular_type": "3"
+      }
+    },
+    "management_wanted:wood_table_bottom_middle": {
+      "set": {
+        "modular_type": "11"
+      }
+    },
+    "management_wanted:wood_table_bottom_right": {
+      "set": {
+        "modular_type": "9"
+      }
+    },
+    "management_wanted:wood_table_middle_left": {
+      "set": {
+        "modular_type": "7"
+      }
+    },
+    "management_wanted:wood_table_middle_right": {
+      "set": {
+        "modular_type": "13"
+      }
+    },
+    "management_wanted:wood_table_top_left": {
+      "set": {
+        "modular_type": "6"
+      }
+    },
+    "management_wanted:wood_table_top_middle": {
+      "set": {
+        "modular_type": "14"
+      }
+    },
+    "management_wanted:wood_table_top_right": {
+      "set": {
+        "modular_type": "12"
+      }
+    }
+  },
+  "position_fixes": [
+    {
+      "pos": [
+        25,
+        2,
+        38
+      ],
+      "old": "management_wanted:window_bottom_right",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "9"
+      },
+      "reason": "front window piece: layout=post/sill/head edges for its 3x2 grid cell"
+    },
+    {
+      "pos": [
+        25,
+        3,
+        38
+      ],
+      "old": "management_wanted:window_top_right",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "12"
+      },
+      "reason": "front window piece: layout=post/sill/head edges for its 3x2 grid cell"
+    },
+    {
+      "pos": [
+        26,
+        2,
+        38
+      ],
+      "old": "management_wanted:window_bottom_mid",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "11"
+      },
+      "reason": "front window piece: layout=post/sill/head edges for its 3x2 grid cell"
+    },
+    {
+      "pos": [
+        26,
+        3,
+        38
+      ],
+      "old": "management_wanted:window_top_mid",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "14"
+      },
+      "reason": "front window piece: layout=post/sill/head edges for its 3x2 grid cell"
+    },
+    {
+      "pos": [
+        27,
+        2,
+        38
+      ],
+      "old": "management_wanted:window_bottom_left",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "3"
+      },
+      "reason": "front window piece: layout=post/sill/head edges for its 3x2 grid cell"
+    },
+    {
+      "pos": [
+        27,
+        3,
+        38
+      ],
+      "old": "management_wanted:window_top_left",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "6"
+      },
+      "reason": "front window piece: layout=post/sill/head edges for its 3x2 grid cell"
+    },
+    {
+      "pos": [
+        29,
+        2,
+        24
+      ],
+      "old": "management_wanted:window_bottom_left",
+      "action": "replace",
+      "new": "minecraft:glass",
+      "properties": {},
+      "reason": "west-facing window: fnafmw:window models only exist for the north/south plane and have no facing/rotation property, so a plain glass block is used"
+    },
+    {
+      "pos": [
+        29,
+        2,
+        25
+      ],
+      "old": "management_wanted:window_bottom_mid",
+      "action": "replace",
+      "new": "minecraft:glass",
+      "properties": {},
+      "reason": "west-facing window: fnafmw:window models only exist for the north/south plane and have no facing/rotation property, so a plain glass block is used"
+    },
+    {
+      "pos": [
+        29,
+        2,
+        26
+      ],
+      "old": "management_wanted:window_bottom_right",
+      "action": "replace",
+      "new": "minecraft:glass",
+      "properties": {},
+      "reason": "west-facing window: fnafmw:window models only exist for the north/south plane and have no facing/rotation property, so a plain glass block is used"
+    },
+    {
+      "pos": [
+        29,
+        2,
+        34
+      ],
+      "old": "management_wanted:window_bottom_left",
+      "action": "replace",
+      "new": "minecraft:glass",
+      "properties": {},
+      "reason": "west-facing window: fnafmw:window models only exist for the north/south plane and have no facing/rotation property, so a plain glass block is used"
+    },
+    {
+      "pos": [
+        29,
+        2,
+        35
+      ],
+      "old": "management_wanted:window_bottom_mid",
+      "action": "replace",
+      "new": "minecraft:glass",
+      "properties": {},
+      "reason": "west-facing window: fnafmw:window models only exist for the north/south plane and have no facing/rotation property, so a plain glass block is used"
+    },
+    {
+      "pos": [
+        29,
+        2,
+        36
+      ],
+      "old": "management_wanted:window_bottom_right",
+      "action": "replace",
+      "new": "minecraft:glass",
+      "properties": {},
+      "reason": "west-facing window: fnafmw:window models only exist for the north/south plane and have no facing/rotation property, so a plain glass block is used"
+    },
+    {
+      "pos": [
+        29,
+        3,
+        24
+      ],
+      "old": "management_wanted:window_top_left",
+      "action": "replace",
+      "new": "minecraft:glass",
+      "properties": {},
+      "reason": "west-facing window: fnafmw:window models only exist for the north/south plane and have no facing/rotation property, so a plain glass block is used"
+    },
+    {
+      "pos": [
+        29,
+        3,
+        25
+      ],
+      "old": "management_wanted:window_top_mid",
+      "action": "replace",
+      "new": "minecraft:glass",
+      "properties": {},
+      "reason": "west-facing window: fnafmw:window models only exist for the north/south plane and have no facing/rotation property, so a plain glass block is used"
+    },
+    {
+      "pos": [
+        29,
+        3,
+        26
+      ],
+      "old": "management_wanted:window_top_right",
+      "action": "replace",
+      "new": "minecraft:glass",
+      "properties": {},
+      "reason": "west-facing window: fnafmw:window models only exist for the north/south plane and have no facing/rotation property, so a plain glass block is used"
+    },
+    {
+      "pos": [
+        29,
+        3,
+        34
+      ],
+      "old": "management_wanted:window_top_left",
+      "action": "replace",
+      "new": "minecraft:glass",
+      "properties": {},
+      "reason": "west-facing window: fnafmw:window models only exist for the north/south plane and have no facing/rotation property, so a plain glass block is used"
+    },
+    {
+      "pos": [
+        29,
+        3,
+        35
+      ],
+      "old": "management_wanted:window_top_mid",
+      "action": "replace",
+      "new": "minecraft:glass",
+      "properties": {},
+      "reason": "west-facing window: fnafmw:window models only exist for the north/south plane and have no facing/rotation property, so a plain glass block is used"
+    },
+    {
+      "pos": [
+        29,
+        3,
+        36
+      ],
+      "old": "management_wanted:window_top_right",
+      "action": "replace",
+      "new": "minecraft:glass",
+      "properties": {},
+      "reason": "west-facing window: fnafmw:window models only exist for the north/south plane and have no facing/rotation property, so a plain glass block is used"
+    },
+    {
+      "pos": [
+        27,
+        1,
+        27
+      ],
+      "old": "management_wanted:speaker",
+      "action": "replace",
+      "new": "fnafmw:classic_speaker",
+      "properties": {
+        "rotation": "6"
+      },
+      "reason": "old block used `facing`; new speaker uses `rotation` (0=north, 2=east, 4=south, 6=west)"
+    },
+    {
+      "pos": [
+        27,
+        1,
+        33
+      ],
+      "old": "management_wanted:speaker",
+      "action": "replace",
+      "new": "fnafmw:classic_speaker",
+      "properties": {
+        "rotation": "6"
+      },
+      "reason": "old block used `facing`; new speaker uses `rotation` (0=north, 2=east, 4=south, 6=west)"
+    },
+    {
+      "pos": [
+        22,
+        4,
+        37
+      ],
+      "old": "management_wanted:exit_sign",
+      "action": "replace",
+      "new": "fnafmw:exit_sign",
+      "properties": {
+        "rotation": "0",
+        "wall": "true",
+        "black": "false"
+      },
+      "reason": "old facing -> new rotation index (22.5 deg steps); wall mount above the entrance"
+    },
+    {
+      "pos": [
+        25,
+        1,
+        30
+      ],
+      "old": "management_wanted:out_of_order_sign",
+      "action": "replace",
+      "new": "fnafmw:out_of_order_sign",
+      "properties": {
+        "rotation": "12",
+        "wall": "true"
+      },
+      "reason": "old facing -> new rotation index (22.5 deg steps); wall mount"
+    },
+    {
+      "pos": [
+        18,
+        1,
+        36
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "south",
+        "variant": "2"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        18,
+        2,
+        36
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "south",
+        "variant": "2"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        18,
+        3,
+        36
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "south",
+        "variant": "2"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        18,
+        4,
+        36
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "south",
+        "variant": "2"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        36
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "south",
+        "variant": "2"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        19,
+        1,
+        36
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "south",
+        "variant": "3"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        19,
+        2,
+        36
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "south",
+        "variant": "3"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        19,
+        3,
+        36
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "south",
+        "variant": "3"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        19,
+        4,
+        36
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "south",
+        "variant": "3"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        36
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "south",
+        "variant": "3"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        21,
+        1,
+        4
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "west",
+        "variant": "2"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        21,
+        1,
+        5
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "west",
+        "variant": "3"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        21,
+        2,
+        4
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "west",
+        "variant": "2"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        21,
+        2,
+        5
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "west",
+        "variant": "3"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        21,
+        3,
+        4
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "west",
+        "variant": "2"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        21,
+        3,
+        5
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "west",
+        "variant": "3"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        21,
+        4,
+        4
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "west",
+        "variant": "2"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        21,
+        4,
+        5
+      ],
+      "old": "management_wanted:wall_divider",
+      "action": "replace",
+      "new": "fnafmw:wall_divider",
+      "properties": {
+        "facing": "west",
+        "variant": "3"
+      },
+      "reason": "old blockstate 1=right / 2=left plate maps to new variant 3 / 2"
+    },
+    {
+      "pos": [
+        18,
+        1,
+        28
+      ],
+      "old": "management_wanted:wood_table_middle_left",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "15"
+      },
+      "reason": "centre cell of the 3x3 table; old reuse of middle_left leaves a hole, new type 15=middle fills it"
+    }
+  ],
+  "doors": [
+    {
+      "pos": [
+        22,
+        1,
+        38
+      ],
+      "old": "management_wanted:big_entrance_door",
+      "kind": "big_entrance",
+      "facing": "south",
+      "opening": "front entrance",
+      "width": 3,
+      "height": 3,
+      "reason": "front entrance: 3 wide (x=21..23) x 3 tall (y=1..3) opening in the z=38 facade. The origin for fnafmw:big_entrance_door is the bottom-centre cell (x=22, y=1, z=38); the old block sits at y=2 only because the old model rendered 1 block lower."
+    },
+    {
+      "pos": [
+        22,
+        1,
+        8
+      ],
+      "old": "management_wanted:parts_service_door",
+      "kind": "double",
+      "facing": "south",
+      "hinge": "left",
+      "upper_pos": [
+        22,
+        2,
+        8
+      ],
+      "opening": "parts/service",
+      "reason": "west leaf of the 2 wide (x=22..23) x 3 tall parts/service opening in the z=8 wall; hinge on the outside (west) edge"
+    },
+    {
+      "pos": [
+        23,
+        1,
+        8
+      ],
+      "old": "management_wanted:parts_service_door",
+      "kind": "double",
+      "facing": "south",
+      "hinge": "right",
+      "upper_pos": [
+        23,
+        2,
+        8
+      ],
+      "opening": "parts/service",
+      "reason": "east leaf of the same parts/service opening; hinge on the outside (east) edge"
+    },
+    {
+      "pos": [
+        29,
+        1,
+        4
+      ],
+      "old": "management_wanted:backstage_door",
+      "kind": "double",
+      "facing": "west",
+      "hinge": "left",
+      "upper_pos": [
+        29,
+        2,
+        4
+      ],
+      "opening": "backstage",
+      "reason": "north leaf of the 2 wide (z=4..5) x 3 tall backstage opening in the x=29 wall; hinge on the outside (north) edge"
+    },
+    {
+      "pos": [
+        29,
+        1,
+        5
+      ],
+      "old": "management_wanted:backstage_door",
+      "kind": "double",
+      "facing": "west",
+      "hinge": "right",
+      "upper_pos": [
+        29,
+        2,
+        5
+      ],
+      "opening": "backstage",
+      "reason": "south leaf of the same backstage opening; hinge on the outside (south) edge"
+    }
+  ],
+  "notes": [
+    "Structure is 31x48x40 but only y=0..8 contains blocks (ground y=0, walk level y=1, ceiling y=6).",
+    "Only 3 real door openings exist: the 3x3 front big entrance at z=38 x=21..23, a 2x3 parts/service door at z=8 x=22..23, and a 2x3 backstage door at x=29 z=4..5. Every old door block sits at y=2 because the old custom door models render one block lower than their own position, so each door listing uses y=1 as the lower half.",
+    "All 52 door_frame_* blocks are embedded in SOLID walls (all four horizontal neighbours are wall blocks) - they are decorative frame trim, not openings. They are therefore NOT converted into doors; they become solid retro_wall_blue_black_trim blocks with face=wall.",
+    "Facing: comparing old and new blockstate y-rotations shows almost every directional block is authored 180 deg apart (e.g. old locker facing=north y=0 vs new facing=north y=180). All such blocks get the north<->south / east<->west facing_map. Exceptions kept at identity: fnaf_1_chair (classic_chair), laptop (terminal) and the doors, whose y tables match exactly.",
+    "If the runtime ALSO applies the mod's built-in LegacyBlockRules.FLIPPED_FACING list, the flips for locker / retro_monitor / wall_wires / children_drawings_2 / children_drawings_3 would be applied twice and cancel out. Apply one or the other, not both.",
+    "Windows: fnafmw:window only has a `layout` property (0..46) and its model is fixed in the east-west plane, so it can only represent north/south walls. The 3x2 front window (z=38) uses layout 9/11/3/12/14/6 (west post+sill, sill, east post+sill, west post+head, head, east post+head). The two 3x2 windows on the x=29 east wall cannot be rotated by any property, so they are replaced with minecraft:glass.",
+    "Party tables are 2 or 3 wide along x and 2 or 3 deep along z; the new modular_type numbering maps directly from the old part names (bottom_left=3, bottom_middle=11, bottom_right=9, middle_left=7, middle_right=13, top_left=6, top_middle=14, top_right=12).",
+    "The 3x3 table at x=17..19 z=27..29 had its centre cell authored as wood_table_middle_left; it is replaced with modular_type 15 (middle) so the table top has no hole.",
+    "speaker / out_of_order_sign / exit_sign use the new `rotation` property instead of `facing`; per-instance rotation values are given in position_fixes (speaker 45 deg steps, signs 22.5 deg steps).",
+    "shingle_stair -> fnafmw:cyan_shingle is a full block, not a stair, so the roof eave silhouette changes slightly. The facing_map keeps the shingle texture pointing the same way as the old stair.",
+    "Remaining risk: fnafmw:classic_pizzeria_wall_black_trim / retro_wall_blue_black_trim are full cubes, so the old 1px door-frame trim becomes chunky wall trim. Placement is safe (it replaces solid wall blocks) but the thin frame look is lost.",
+    "Remaining risk: wall_divider left/right variants (1 px plates) are set per instance; if the new left/right models are mirrored the plates end up on the wrong edge of their block (2 px shift).",
+    "Remaining risk: nothing was verified in game. Block ids were validated against new_blockstates.txt and the new jar's blockstate files; all properties used were checked against that jar."
+  ]
+}

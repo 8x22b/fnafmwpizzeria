@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+out/
+run/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Local build dependencies (do not commit the FNAFMW/FNAFMW dependency jars)
+libs/*.jar
+
+# Local conversion sources and backups
+provenance/
+
+# OS / logs
+*.log
+.DS_Store
+Thumbs.db

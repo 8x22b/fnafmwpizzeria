@@ -1,0 +1,14 @@
+{
+  "type": "fnafmwpizzeria:templates",
+  "biomes": "#minecraft:is_overworld",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "templates": [
+    "fnafmwpizzeria:pizzerias/discountdiner",
+    "fnafmwpizzeria:pizzerias/fredbears",
+    "fnafmwpizzeria:pizzerias/fnaf1",
+    "fnafmwpizzeria:pizzerias/fnaf2",
+    "fnafmwpizzeria:pizzerias/jeffspizza"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "structure": "fredbears",
+  "position_fixes": [
+    {
+      "pos": [12, 4, 24],
+      "action": "remove"
+    },
+    {
+      "pos": [25, 3, 12],
+      "action": "replace",
+      "new": "fnafmw:fredbears_advertisement_poster",
+      "properties": {
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [3, 2, 1],
+      "action": "remove"
+    },
+    {
+      "pos": [5, 2, 4],
+      "action": "remove"
+    },
+    {
+      "pos": [5, 2, 8],
+      "action": "remove"
+    },
+    {
+      "pos": [5, 3, 1],
+      "action": "remove"
+    },
+    {
+      "pos": [6, 4, 11],
+      "action": "remove"
+    },
+    {
+      "pos": [18, 3, 19],
+      "action": "remove"
+    },
+    {
+      "pos": [20, 2, 19],
+      "action": "remove"
+    },
+    {
+      "pos": [21, 2, 13],
+      "action": "remove"
+    },
+    {
+      "pos": [23, 4, 6],
+      "action": "remove"
+    },
+    {
+      "pos": [23, 4, 16],
+      "action": "remove"
+    }
+  ],
+  "additions": [
+    {
+      "pos": [12, 4, 24],
+      "new": "minecraft:light_blue_terracotta"
+    },
+    {
+      "pos": [12, 4, 25],
+      "new": "fnafmw:open_neon_sign",
+      "properties": {
+        "facing": "south",
+        "alt": "false",
+        "lit": "true",
+        "powered": "false"
+      }
+    }
+  ],
+  "notes": [
+    "Big entrance: 3x3 (15 parts) fnafmw:big_entrance_door at x=11..13, y=1..3, z=24, origin (12,1,24), facing south. The wall plane is z=24 and the outside sidewalk (gravel, y=0) is z=25.",
+    "The old OPEN sign was embedded in the entrance wall cell (12,4,24); it is removed and the wall cell is refilled with minecraft:light_blue_terracotta (same material as the rest of that facade row). The single new sign sits one block outside the wall at (12,4,25), centred over the entrance at origin.y+3, facing south (outward), lit=true, powered=false, alt=false.",
+    "The exterior fredbears_advertisement_poster at (25,3,12) was facing west into the east wall (art plane flush with the wall, x=26 side empty). It is flipped to facing=east so its back is on the solid x=24 wall and the art faces the outdoor gravel strip.",
+    "58 cardboard boxes were audited. The 10 boxes removed were all floating with air directly below them (most lost their old management_wanted shelf/desk support during conversion), or hovered 3-4 blocks up against nothing. No support blocks were added; boxes elsewhere already rest on the floor, on other boxes, on party tables or on the bathroom-trim ledge, so nothing else needed moving.",
+    "No box was found inside a locker (locker cells and locker_part cells are all clear), inside a door opening, in front of a door, or blocking the entrance path. The remaining stacks are at most 3 high and each cell has a full block under it.",
+    "All other signs in the structure: out_of_order_sign at (12,1,5) is wall=false rotation=0 (a standing A-frame sign) and stands on the carpet floor, so it was left alone. No pizza/restroom neon signs exist in this structure.",
+    "Positions are NBT coordinates before rotation; no NBT or shared file was modified."
+  ]
+}

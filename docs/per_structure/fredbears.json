@@ -1,0 +1,1554 @@
+{
+  "structure": "fredbears",
+  "block_overrides": {
+    "management_wanted:wall_wires": "minecraft:air",
+    "management_wanted:wall_wires_thin": "minecraft:air",
+    "management_wanted:wall_wires_curved_long": "minecraft:air",
+    "management_wanted:wall_wires_curved_thin": "minecraft:air",
+    "management_wanted:hanging_wires_alt": "minecraft:air",
+    "management_wanted:hanging_wall_wires_thin": "minecraft:air",
+    "management_wanted:paper": "minecraft:air",
+    "management_wanted:trash": "minecraft:air",
+    "management_wanted:metal_shelf": "minecraft:air",
+    "management_wanted:metal_shelf_small": "minecraft:air",
+    "management_wanted:storage_shelf": "minecraft:air",
+    "management_wanted:desk_horizontal_left": "minecraft:air",
+    "management_wanted:desk_horizontal_right": "minecraft:air",
+    "management_wanted:fan": "minecraft:air",
+    "management_wanted:laptop": "minecraft:air"
+  },
+  "property_rules": {
+    "management_wanted:parts_service_door": {
+      "set": {
+        "half": "lower",
+        "open": "false"
+      },
+      "drop": [
+        "animation"
+      ]
+    },
+    "management_wanted:backstage_door": {
+      "set": {
+        "half": "lower",
+        "open": "false"
+      },
+      "drop": [
+        "animation"
+      ]
+    },
+    "management_wanted:big_entrance_door": {
+      "set": {
+        "part": "4",
+        "open": "false"
+      },
+      "drop": [
+        "animation"
+      ]
+    },
+    "management_wanted:fredbear_wall_tile": {
+      "set": {
+        "face": "floor"
+      }
+    },
+    "management_wanted:fredbear_carpet": {
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:ruined_white_black_tiles": {
+      "drop": [
+        "blockstate"
+      ]
+    },
+    "management_wanted:normal_light_on": {
+      "set": {
+        "down": "true",
+        "up": "true",
+        "north": "true",
+        "south": "true",
+        "east": "true",
+        "west": "true",
+        "lit": "true",
+        "powered": "false"
+      }
+    },
+    "management_wanted:cardboard_box": {
+      "set": {
+        "open": "false",
+        "variant": "1"
+      },
+      "drop": [
+        "blockstate"
+      ]
+    },
+    "management_wanted:small_cardboard_box": {
+      "set": {
+        "variant": "1"
+      }
+    },
+    "management_wanted:monitor": {
+      "set": {
+        "monitors": "1",
+        "alt": "1"
+      },
+      "drop": [
+        "blockstate"
+      ],
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:retro_monitor": {
+      "set": {
+        "monitors": "1",
+        "alt": "1",
+        "top_alt": "1"
+      },
+      "drop": [
+        "blockstate"
+      ],
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:open_neon_sign": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "set": {
+        "alt": "false",
+        "lit": "true",
+        "powered": "false"
+      },
+      "drop": [
+        "blockstate",
+        "animation"
+      ]
+    },
+    "management_wanted:nebraska_poster": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "drop": [
+        "face"
+      ]
+    },
+    "management_wanted:out_of_order_sign": {
+      "set": {
+        "wall": "false",
+        "rotation": "0"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:hanging_lamp": {
+      "set": {
+        "face": "ceiling",
+        "facing": "north",
+        "lit": "true",
+        "powered": "false"
+      }
+    },
+    "management_wanted:light_bulb": {
+      "set": {
+        "face": "ceiling",
+        "facing": "north",
+        "lit": "true",
+        "powered": "false"
+      }
+    },
+    "management_wanted:stool": {
+      "set": {
+        "facing": "south"
+      }
+    },
+    "management_wanted:puppet_box": {
+      "drop": [
+        "facing",
+        "blockstate"
+      ]
+    },
+    "management_wanted:trashcan": {
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:purple_curtain_pane": {
+      "drop": [
+        "waterlogged"
+      ]
+    },
+    "management_wanted:backstage_shelf": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:desk_horizontal_middle": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "management_wanted:wood_table_horizontal_left": {
+      "set": {
+        "modular_type": "2"
+      }
+    },
+    "management_wanted:wood_table_horizontal_middle": {
+      "set": {
+        "modular_type": "10"
+      }
+    },
+    "management_wanted:wood_table_horizontal_right": {
+      "set": {
+        "modular_type": "8"
+      }
+    },
+    "management_wanted:wood_table_bottom_left": {
+      "set": {
+        "modular_type": "3"
+      }
+    },
+    "management_wanted:wood_table_middle_left": {
+      "set": {
+        "modular_type": "7"
+      }
+    },
+    "management_wanted:wood_table_top_left": {
+      "set": {
+        "modular_type": "6"
+      }
+    },
+    "management_wanted:wood_table_bottom_right": {
+      "set": {
+        "modular_type": "9"
+      }
+    },
+    "management_wanted:wood_table_middle_right": {
+      "set": {
+        "modular_type": "13"
+      }
+    },
+    "management_wanted:wood_table_top_right": {
+      "set": {
+        "modular_type": "12"
+      }
+    },
+    "management_wanted:backstage_table_left": {
+      "set": {
+        "modular_type": "2"
+      },
+      "rotation_y": 90,
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:backstage_table_middle": {
+      "set": {
+        "modular_type": "10"
+      },
+      "rotation_y": 90,
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:backstage_table_right": {
+      "set": {
+        "modular_type": "8"
+      },
+      "rotation_y": 90,
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:window_bottom_left": {
+      "set": {
+        "layout": "0"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:window_bottom_mid": {
+      "set": {
+        "layout": "0"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:window_bottom_right": {
+      "set": {
+        "layout": "0"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:window_top_left": {
+      "set": {
+        "layout": "0"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:window_top_mid": {
+      "set": {
+        "layout": "0"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "management_wanted:window_top_right": {
+      "set": {
+        "layout": "0"
+      },
+      "drop": [
+        "facing"
+      ]
+    }
+  },
+  "position_fixes": [
+    {
+      "pos": [
+        1,
+        1,
+        10
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:parts_service_door",
+      "properties": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false"
+      },
+      "reason": "double door leaf, left hinge, lower half"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        10
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:parts_service_door",
+      "properties": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false"
+      },
+      "reason": "double door leaf, left hinge, upper half"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        10
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:diner_wall",
+      "reason": "wall header closing the old 3-tall opening above the 2-tall door"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        10
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:parts_service_door",
+      "properties": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false"
+      },
+      "reason": "double door leaf, right hinge, lower half"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        10
+      ],
+      "old": "management_wanted:parts_service_door",
+      "action": "replace",
+      "new": "fnafmw:parts_service_door",
+      "properties": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false"
+      },
+      "reason": "double door leaf, right hinge, upper half"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        10
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:diner_wall",
+      "reason": "wall header closing the old 3-tall opening above the 2-tall door"
+    },
+    {
+      "pos": [
+        18,
+        1,
+        1
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:parts_service_door",
+      "properties": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false"
+      },
+      "reason": "double door leaf, left hinge, lower half"
+    },
+    {
+      "pos": [
+        18,
+        2,
+        1
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:parts_service_door",
+      "properties": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false"
+      },
+      "reason": "double door leaf, left hinge, upper half"
+    },
+    {
+      "pos": [
+        18,
+        3,
+        1
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:diner_wall",
+      "reason": "wall header closing the old 3-tall opening above the 2-tall door"
+    },
+    {
+      "pos": [
+        18,
+        1,
+        2
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:parts_service_door",
+      "properties": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false"
+      },
+      "reason": "double door leaf, right hinge, lower half"
+    },
+    {
+      "pos": [
+        18,
+        2,
+        2
+      ],
+      "old": "management_wanted:parts_service_door",
+      "action": "replace",
+      "new": "fnafmw:parts_service_door",
+      "properties": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false"
+      },
+      "reason": "double door leaf, right hinge, upper half"
+    },
+    {
+      "pos": [
+        18,
+        3,
+        2
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:diner_wall",
+      "reason": "wall header closing the old 3-tall opening above the 2-tall door"
+    },
+    {
+      "pos": [
+        18,
+        1,
+        15
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:parts_service_door",
+      "properties": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false"
+      },
+      "reason": "double door leaf, left hinge, lower half"
+    },
+    {
+      "pos": [
+        18,
+        2,
+        15
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:parts_service_door",
+      "properties": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false"
+      },
+      "reason": "double door leaf, left hinge, upper half"
+    },
+    {
+      "pos": [
+        18,
+        3,
+        15
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:diner_wall",
+      "reason": "wall header closing the old 3-tall opening above the 2-tall door"
+    },
+    {
+      "pos": [
+        18,
+        1,
+        16
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:parts_service_door",
+      "properties": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false"
+      },
+      "reason": "double door leaf, right hinge, lower half"
+    },
+    {
+      "pos": [
+        18,
+        2,
+        16
+      ],
+      "old": "management_wanted:parts_service_door",
+      "action": "replace",
+      "new": "fnafmw:parts_service_door",
+      "properties": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false"
+      },
+      "reason": "double door leaf, right hinge, upper half"
+    },
+    {
+      "pos": [
+        18,
+        3,
+        16
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:diner_wall",
+      "reason": "wall header closing the old 3-tall opening above the 2-tall door"
+    },
+    {
+      "pos": [
+        18,
+        1,
+        9
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:employee_door",
+      "properties": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false"
+      },
+      "reason": "double door leaf, left hinge, lower half"
+    },
+    {
+      "pos": [
+        18,
+        2,
+        9
+      ],
+      "old": "management_wanted:backstage_door",
+      "action": "replace",
+      "new": "fnafmw:employee_door",
+      "properties": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false"
+      },
+      "reason": "double door leaf, left hinge, upper half"
+    },
+    {
+      "pos": [
+        18,
+        3,
+        9
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:diner_wall",
+      "reason": "wall header closing the old 3-tall opening above the 2-tall door"
+    },
+    {
+      "pos": [
+        18,
+        1,
+        10
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:employee_door",
+      "properties": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false"
+      },
+      "reason": "double door leaf, right hinge, lower half"
+    },
+    {
+      "pos": [
+        18,
+        2,
+        10
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:employee_door",
+      "properties": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false"
+      },
+      "reason": "double door leaf, right hinge, upper half"
+    },
+    {
+      "pos": [
+        18,
+        3,
+        10
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:diner_wall",
+      "reason": "wall header closing the old 3-tall opening above the 2-tall door"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        24
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "0",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance origin (PART 0)"
+    },
+    {
+      "pos": [
+        13,
+        1,
+        24
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "1",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance PART 1"
+    },
+    {
+      "pos": [
+        11,
+        1,
+        24
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "2",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance PART 2"
+    },
+    {
+      "pos": [
+        13,
+        2,
+        24
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "3",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance PART 3"
+    },
+    {
+      "pos": [
+        12,
+        2,
+        24
+      ],
+      "old": "management_wanted:big_entrance_door",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "4",
+        "open": "false"
+      },
+      "reason": "old block position, PART 4 centre middle"
+    },
+    {
+      "pos": [
+        11,
+        2,
+        24
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "5",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance PART 5"
+    },
+    {
+      "pos": [
+        13,
+        3,
+        24
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "6",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance PART 6"
+    },
+    {
+      "pos": [
+        12,
+        3,
+        24
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "7",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance PART 7"
+    },
+    {
+      "pos": [
+        11,
+        3,
+        24
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "8",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance PART 8"
+    },
+    {
+      "pos": [
+        13,
+        1,
+        23
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "9",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance PART 9"
+    },
+    {
+      "pos": [
+        11,
+        1,
+        23
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "10",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance PART 10"
+    },
+    {
+      "pos": [
+        13,
+        2,
+        23
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "11",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance PART 11"
+    },
+    {
+      "pos": [
+        11,
+        2,
+        23
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "12",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance PART 12"
+    },
+    {
+      "pos": [
+        13,
+        3,
+        23
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "13",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance PART 13"
+    },
+    {
+      "pos": [
+        11,
+        3,
+        23
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {
+        "facing": "south",
+        "part": "14",
+        "open": "false"
+      },
+      "reason": "3x3 front entrance PART 14"
+    },
+    {
+      "pos": [
+        22,
+        1,
+        13
+      ],
+      "old": "management_wanted:small_cardboard_box",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "box sits inside the new 3-wide classic_desk"
+    },
+    {
+      "pos": [
+        23,
+        3,
+        15
+      ],
+      "old": "management_wanted:monitor",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "monitor was on an open shelf; new locker is closed and 2 blocks tall"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        4
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "fnafmw:ceiling_tile_gray",
+      "reason": "old light-sensor block embedded in the ceiling layer, replaced by a ceiling tile"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        7
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "fnafmw:ceiling_tile_gray",
+      "reason": "old light-sensor block embedded in the ceiling layer, replaced by a ceiling tile"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        4
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "fnafmw:ceiling_tile_gray",
+      "reason": "old light-sensor block embedded in the ceiling layer, replaced by a ceiling tile"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        7
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "fnafmw:ceiling_tile_gray",
+      "reason": "old light-sensor block embedded in the ceiling layer, replaced by a ceiling tile"
+    },
+    {
+      "pos": [
+        4,
+        6,
+        4
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "fnafmw:ceiling_tile_gray",
+      "reason": "old light-sensor block embedded in the ceiling layer, replaced by a ceiling tile"
+    },
+    {
+      "pos": [
+        4,
+        6,
+        7
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "fnafmw:ceiling_tile_gray",
+      "reason": "old light-sensor block embedded in the ceiling layer, replaced by a ceiling tile"
+    },
+    {
+      "pos": [
+        20,
+        6,
+        6
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "fnafmw:ceiling_tile_gray",
+      "reason": "old light-sensor block embedded in the ceiling layer, replaced by a ceiling tile"
+    },
+    {
+      "pos": [
+        20,
+        6,
+        10
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "fnafmw:ceiling_tile_gray",
+      "reason": "old light-sensor block embedded in the ceiling layer, replaced by a ceiling tile"
+    },
+    {
+      "pos": [
+        21,
+        6,
+        6
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "fnafmw:ceiling_tile_gray",
+      "reason": "old light-sensor block embedded in the ceiling layer, replaced by a ceiling tile"
+    },
+    {
+      "pos": [
+        21,
+        6,
+        10
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "fnafmw:ceiling_tile_gray",
+      "reason": "old light-sensor block embedded in the ceiling layer, replaced by a ceiling tile"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        12
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        17
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        3,
+        7,
+        12
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        3,
+        7,
+        17
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        4,
+        7,
+        12
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        4,
+        7,
+        17
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        8,
+        7,
+        7
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        8,
+        7,
+        12
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        8,
+        7,
+        17
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        9,
+        7,
+        7
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        9,
+        7,
+        12
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        9,
+        7,
+        17
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        10,
+        7,
+        7
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        10,
+        7,
+        12
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        10,
+        7,
+        17
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        11,
+        7,
+        3
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        13,
+        7,
+        3
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        14,
+        7,
+        7
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        14,
+        7,
+        12
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        14,
+        7,
+        17
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        14,
+        7,
+        22
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        15,
+        7,
+        7
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        15,
+        7,
+        12
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        15,
+        7,
+        17
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        15,
+        7,
+        22
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        16,
+        7,
+        7
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        16,
+        7,
+        12
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        16,
+        7,
+        17
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        16,
+        7,
+        22
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        20,
+        7,
+        22
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        21,
+        7,
+        22
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    },
+    {
+      "pos": [
+        22,
+        7,
+        22
+      ],
+      "old": "minecraft:daylight_detector",
+      "action": "replace",
+      "new": "minecraft:air",
+      "reason": "old light-sensor block sitting on top of the ceiling, removed"
+    }
+  ],
+  "doors": [
+    {
+      "pos": [
+        1,
+        1,
+        10
+      ],
+      "kind": "double",
+      "facing": "south",
+      "reason": "custom 2-wide parts-service doorway in the west wall (x=1..2, y=1..2 door + y=3 header)",
+      "leaves": [
+        {
+          "pos": [
+            1,
+            1,
+            10
+          ],
+          "hinge": "left"
+        },
+        {
+          "pos": [
+            2,
+            1,
+            10
+          ],
+          "hinge": "right"
+        }
+      ]
+    },
+    {
+      "pos": [
+        18,
+        1,
+        1
+      ],
+      "kind": "double",
+      "facing": "west",
+      "reason": "custom 2-wide parts-service doorway in the x=18 wall (z=1..2, y=1..2 door + y=3 header)",
+      "leaves": [
+        {
+          "pos": [
+            18,
+            1,
+            1
+          ],
+          "hinge": "left"
+        },
+        {
+          "pos": [
+            18,
+            1,
+            2
+          ],
+          "hinge": "right"
+        }
+      ]
+    },
+    {
+      "pos": [
+        18,
+        1,
+        15
+      ],
+      "kind": "double",
+      "facing": "west",
+      "reason": "custom 2-wide parts-service doorway in the x=18 wall (z=15..16, y=1..2 door + y=3 header)",
+      "leaves": [
+        {
+          "pos": [
+            18,
+            1,
+            15
+          ],
+          "hinge": "left"
+        },
+        {
+          "pos": [
+            18,
+            1,
+            16
+          ],
+          "hinge": "right"
+        }
+      ]
+    },
+    {
+      "pos": [
+        18,
+        1,
+        9
+      ],
+      "kind": "double",
+      "facing": "west",
+      "reason": "custom 2-wide backstage doorway in the x=18 wall (z=9..10, y=1..2 door + y=3 header)",
+      "leaves": [
+        {
+          "pos": [
+            18,
+            1,
+            9
+          ],
+          "hinge": "left"
+        },
+        {
+          "pos": [
+            18,
+            1,
+            10
+          ],
+          "hinge": "right"
+        }
+      ]
+    },
+    {
+      "pos": [
+        12,
+        1,
+        24
+      ],
+      "kind": "big_entrance",
+      "facing": "south",
+      "reason": "3-wide x 3-tall front entrance at x=11..13, z=24, y=1..3; origin is one block below the old block (old 3-tall model bottom)"
+    }
+  ],
+  "notes": [
+    "Size 29x10x26. Single-storey diner: floor y=0, interior y=1..5, ceiling y=6 (y=5 over the east office).",
+    "All 4 custom small doors are 2 blocks wide and 3 blocks tall in the old build (block origin y=2, visible body y=1..3). Each becomes a pair of standard 2-tall doors at y=1..2 plus a wall header at y=3, so the new doors stand on the floor and the old 3-tall opening stays closed.",
+    "Front entrance is the 15-part fnafmw:big_entrance_door, origin (12,1,24), facing south; it fills x=11..13, y=1..3. The old block is at y=2 because its 3-tall model spans y=-16..+32 relative to it (world y=1..4).",
+    "Window layout=0 is the isolated fully framed pane; all 18 old window parts are on north/south walls, so no rotation is needed.",
+    "Party tables use modular_type matching the old part names; only the east-facing backstage table rows need rotation_y=90 (horizontal_right at the north end, horizontal_left at the south end).",
+    "classic_desk, locker and both monitors are authored 180 degrees from the old models (new desk user side, locker door and CRT screen face the opposite direction), so their facing is flipped. Chairs and party tables are unchanged in orientation.",
+    "Wall wires, papers and trash are removed: the new wall decorations sit on the facing side of their block, so old blocks placed one block away from the wall would float.",
+    "Old desk was 1 block tall and 3 wide; new classic_desk is 3 wide and 2 tall, so the fan, laptop and the box at (22,1,13) are removed to avoid clipping.",
+    "Old daylight detectors (light toggles) are replaced: ceiling-layer ones become ceiling tiles, ones above the ceiling are removed.",
+    "Lights are set lit=true, powered=false so they stay lit; powered=true would be cleared by the new light block's neighbour update without redstone.",
+    "Classic desk occupies x=19..22 at z=13 and reaches 0.25 blocks into the z=12 wall; that is the model's built-in wall-hugging offset."
+  ]
+}

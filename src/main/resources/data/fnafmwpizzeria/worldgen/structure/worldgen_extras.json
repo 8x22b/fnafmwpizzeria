@@ -1,0 +1,12 @@
+{
+  "type": "fnafmwpizzeria:templates",
+  "biomes": "#minecraft:is_overworld",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "templates": [
+    "fnafmwpizzeria:worldgen_extras/franchiseeoffice",
+    "fnafmwpizzeria:worldgen_extras/pinwheel_largetent",
+    "fnafmwpizzeria:worldgen_extras/pinwheel_carnival"
+  ]
+}

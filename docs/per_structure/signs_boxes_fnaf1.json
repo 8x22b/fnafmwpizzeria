@@ -1,0 +1,48 @@
+{
+  "structure": "fnaf1",
+  "position_fixes": [
+    {
+      "pos": [12, 4, 32],
+      "action": "replace",
+      "new": "fnafmw:tan_facade_bricks"
+    },
+    {
+      "pos": [8, 3, 29],
+      "action": "remove"
+    },
+    {
+      "pos": [8, 4, 28],
+      "action": "remove"
+    },
+    {
+      "pos": [34, 4, 26],
+      "action": "remove"
+    }
+  ],
+  "additions": [
+    {
+      "pos": [12, 5, 33],
+      "new": "fnafmw:open_neon_sign",
+      "properties": {
+        "facing": "north",
+        "alt": "false",
+        "lit": "true",
+        "powered": "false"
+      }
+    }
+  ],
+  "notes": [
+    "Big entrance: big_entrance_door origin (part=0) at [12,1,32], facing=south; 3x3 opening x=11..13, y=1..3 in the facade wall plane z=32; outside is z=33.",
+    "OPEN sign: the only baked fnafmw:open_neon_sign was at [12,4,32], i.e. embedded in the facade wall (it had replaced a wall block, and the exit sign at [12,4,31] was mounted on its back). That position is now replaced with fnafmw:tan_facade_bricks, matching the surrounding facade, so the wall block is back behind the new sign.",
+    "OPEN sign facing is 'north', not 'south'. The mod's model/board sits on the side named by facing (shape wallShapes(0,0,0.93625,1,1,1.06125) = south edge for facing=south; model plane at z=15.98), and the readable 'OPEN' texture is on the opposite face (north face UV [0,0,8,8] is the unmirrored half, south face UV [8,0,16,8] is the mirrored half). So facing=north puts the board flush on the north wall at z=32 and reads outward to the south, the same convention used by the fnaf2/fredbears signfix structures.",
+    "OPEN sign height: the canonical outboard cell for a 3-tall door, [12,4,33], is occupied by the projecting cornice fnafmw:caramel_facade_wall_slab(type=top). The nearest valid wall cell above it is [12,5,33] (air, with fnafmw:tan_facade_bricks directly behind at [12,5,32]), so the sign is centered one row higher instead of cutting a notch out of the awning.",
+    "Hazard signs audited, no change: [12,2,12] facing=east (wall at x=13), [23,2,2] facing=north (wall at z=1), [30,2,31] facing=south (wall at z=32). Each has its supporting wall on its facing side, which is the mod's mounting convention, so all three are correctly mounted and readable from the room.",
+    "exit_sign [12,4,31] rotation=0/wall=true is the south-wall mount and was already correct; it is now backed by the restored tan_facade_bricks at [12,4,32].",
+    "out_of_order_sign [19,1,27] is a free-standing floor sign on black_white_tiles (wall=false); unchanged.",
+    "Six blank minecraft:oak_wall_sign blocks (x=25..27, y=2..3, z=33) are mounted 1 block outside the z=32 storefront window, facing south. Not embedded and original to the old map; left as-is.",
+    "Cardboard boxes: 136 audited (81 small, 55 large, 0 medium). Exactly 3 floated and were removed as random clutter: [8,3,29] (floated in the old NBT too), [8,4,28] (its old support metal_shelf_small was dropped in the conversion), [34,4,26] (1-block gap above the locker at [34,2,26]).",
+    "Boxes at [10,1,31] and [14,1,31] flank the big entrance side columns but sit outside the x=11..13 walkway; kept. No box intersects a door cell or a locker cell.",
+    "Boxes at [17,2,31], [21,2,31] (show stage) and [16,2,23] (party table) are supported and original to the old map; kept as decor (not floating).",
+    "All remaining stacked boxes are small/large on large (full 16px cube); no large box rests on a 6px small box, so no impossible stacks remain."
+  ]
+}

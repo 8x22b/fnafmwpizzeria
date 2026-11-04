@@ -1,0 +1,1046 @@
+{
+  "structure": "discountdiner",
+  "block_overrides": {
+    "management_wanted:staff_door": "minecraft:air",
+    "management_wanted:backstage_door": "minecraft:air",
+    "management_wanted:big_entrance_door": "minecraft:air",
+    "management_wanted:backstage_shelf": "minecraft:air",
+    "management_wanted:locker_void": "minecraft:air"
+  },
+  "property_rules": {
+    "fnafmw:employee_door": {
+      "facing_map": {
+        "north": "north",
+        "east": "east",
+        "south": "south",
+        "west": "west"
+      },
+      "set": {
+        "open": "false"
+      },
+      "drop": [
+        "powered"
+      ]
+    },
+    "fnafmw:locker": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "drop": [
+        "blockstate"
+      ]
+    },
+    "fnafmw:classic_monitor": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "set": {
+        "monitors": "1",
+        "alt": "1"
+      },
+      "drop": [
+        "blockstate"
+      ]
+    },
+    "fnafmw:desk_fan": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "set": {
+        "lit": "true"
+      },
+      "drop": [
+        "blockstate"
+      ]
+    },
+    "fnafmw:terminal": {
+      "facing_map": {
+        "north": "north",
+        "east": "east",
+        "south": "south",
+        "west": "west"
+      },
+      "set": {
+        "lit": "true"
+      }
+    },
+    "fnafmw:classic_speaker": {
+      "set": {
+        "rotation": "0"
+      },
+      "drop": [
+        "facing"
+      ]
+    },
+    "fnafmw:hazard_sign": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "fnafmw:open_neon_sign": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "set": {
+        "lit": "true",
+        "powered": "true",
+        "alt": "false"
+      },
+      "drop": [
+        "animation",
+        "blockstate"
+      ]
+    },
+    "fnafmw:fredbears_advertisement_poster": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "drop": [
+        "face"
+      ]
+    },
+    "fnafmw:crying_child_poster": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "drop": [
+        "blockstate"
+      ]
+    },
+    "fnafmw:classic_childrens_drawings": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "fnafmw:rebrand_childrens_drawings": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "fnafmw:fright_childrens_drawings": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "fnafmw:thin_wall_wires": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      }
+    },
+    "fnafmw:light_bulb": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "set": {
+        "face": "ceiling",
+        "lit": "true",
+        "powered": "false"
+      }
+    },
+    "fnafmw:large_cardboard_box": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "set": {
+        "open": "false",
+        "variant": "1"
+      },
+      "drop": [
+        "blockstate"
+      ]
+    },
+    "fnafmw:small_cardboard_box": {
+      "facing_map": {
+        "north": "south",
+        "south": "north",
+        "east": "west",
+        "west": "east"
+      },
+      "set": {
+        "variant": "1"
+      }
+    },
+    "fnafmw:basic_light_warm": {
+      "set": {
+        "lit": "true"
+      }
+    }
+  },
+  "position_fixes": [
+    {
+      "pos": [
+        7,
+        1,
+        18
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "9"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        18
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "11"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        18
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "3"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        19
+      ],
+      "old": "management_wanted:wood_table_bottom_middle",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "13"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        19
+      ],
+      "old": "management_wanted:wood_table_bottom_middle",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "15"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        19
+      ],
+      "old": "management_wanted:wood_table_bottom_left",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "7"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        20
+      ],
+      "old": "management_wanted:wood_table_top_middle",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "12"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        20
+      ],
+      "old": "management_wanted:wood_table_top_middle",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "14"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        20
+      ],
+      "old": "management_wanted:wood_table_top_left",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "6"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        19
+      ],
+      "old": "management_wanted:wood_table_bottom_right",
+      "action": "replace",
+      "new": "minecraft:air",
+      "properties": {},
+      "reason": "leftover 4th column of the old 4x2 table"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        20
+      ],
+      "old": "management_wanted:wood_table_top_right",
+      "action": "replace",
+      "new": "minecraft:air",
+      "properties": {},
+      "reason": "leftover 4th column of the old 4x2 table"
+    },
+    {
+      "pos": [
+        13,
+        1,
+        18
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "9"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        18
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "11"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        15,
+        1,
+        18
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "3"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        13,
+        1,
+        19
+      ],
+      "old": "management_wanted:wood_table_bottom_right",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "13"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        19
+      ],
+      "old": "management_wanted:wood_table_bottom_middle",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "15"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        15,
+        1,
+        19
+      ],
+      "old": "management_wanted:wood_table_bottom_middle",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "7"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        13,
+        1,
+        20
+      ],
+      "old": "management_wanted:wood_table_top_right",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "12"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        20
+      ],
+      "old": "management_wanted:wood_table_top_middle",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "14"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        15,
+        1,
+        20
+      ],
+      "old": "management_wanted:wood_table_top_middle",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "6"
+      },
+      "reason": "3x3 modular party table cell (old tables were 4x2 wood_table_*)"
+    },
+    {
+      "pos": [
+        16,
+        1,
+        19
+      ],
+      "old": "management_wanted:wood_table_bottom_left",
+      "action": "replace",
+      "new": "minecraft:air",
+      "properties": {},
+      "reason": "leftover 4th column of the old 4x2 table"
+    },
+    {
+      "pos": [
+        16,
+        1,
+        20
+      ],
+      "old": "management_wanted:wood_table_top_left",
+      "action": "replace",
+      "new": "minecraft:air",
+      "properties": {},
+      "reason": "leftover 4th column of the old 4x2 table"
+    },
+    {
+      "pos": [
+        21,
+        1,
+        11
+      ],
+      "old": "management_wanted:backstage_table_right",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "8"
+      },
+      "reason": "3-long counter between the two log pillars"
+    },
+    {
+      "pos": [
+        22,
+        1,
+        11
+      ],
+      "old": "management_wanted:backstage_table_middle",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "10"
+      },
+      "reason": "3-long counter between the two log pillars"
+    },
+    {
+      "pos": [
+        23,
+        1,
+        11
+      ],
+      "old": "management_wanted:backstage_table_left",
+      "action": "replace",
+      "new": "fnafmw:party_table",
+      "properties": {
+        "modular_type": "2"
+      },
+      "reason": "3-long counter between the two log pillars"
+    },
+    {
+      "pos": [
+        12,
+        3,
+        27
+      ],
+      "old": "management_wanted:window_top_left",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "12"
+      },
+      "reason": "frame only on the outside edge of the 6x2 window"
+    },
+    {
+      "pos": [
+        13,
+        3,
+        27
+      ],
+      "old": "management_wanted:window_top_mid",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "14"
+      },
+      "reason": "frame only on the outside edge of the 6x2 window"
+    },
+    {
+      "pos": [
+        14,
+        3,
+        27
+      ],
+      "old": "management_wanted:window_top_mid",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "14"
+      },
+      "reason": "frame only on the outside edge of the 6x2 window"
+    },
+    {
+      "pos": [
+        15,
+        3,
+        27
+      ],
+      "old": "management_wanted:window_top_mid",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "14"
+      },
+      "reason": "frame only on the outside edge of the 6x2 window"
+    },
+    {
+      "pos": [
+        16,
+        3,
+        27
+      ],
+      "old": "management_wanted:window_top_mid",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "14"
+      },
+      "reason": "frame only on the outside edge of the 6x2 window"
+    },
+    {
+      "pos": [
+        17,
+        3,
+        27
+      ],
+      "old": "management_wanted:window_top_left",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "6"
+      },
+      "reason": "frame only on the outside edge of the 6x2 window"
+    },
+    {
+      "pos": [
+        12,
+        2,
+        27
+      ],
+      "old": "management_wanted:window_bottom_left",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "9"
+      },
+      "reason": "frame only on the outside edge of the 6x2 window"
+    },
+    {
+      "pos": [
+        13,
+        2,
+        27
+      ],
+      "old": "management_wanted:window_bottom_mid",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "11"
+      },
+      "reason": "frame only on the outside edge of the 6x2 window"
+    },
+    {
+      "pos": [
+        14,
+        2,
+        27
+      ],
+      "old": "management_wanted:window_bottom_mid",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "11"
+      },
+      "reason": "frame only on the outside edge of the 6x2 window"
+    },
+    {
+      "pos": [
+        15,
+        2,
+        27
+      ],
+      "old": "management_wanted:window_bottom_mid",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "11"
+      },
+      "reason": "frame only on the outside edge of the 6x2 window"
+    },
+    {
+      "pos": [
+        16,
+        2,
+        27
+      ],
+      "old": "management_wanted:window_bottom_mid",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "11"
+      },
+      "reason": "frame only on the outside edge of the 6x2 window"
+    },
+    {
+      "pos": [
+        17,
+        2,
+        27
+      ],
+      "old": "management_wanted:window_bottom_left",
+      "action": "replace",
+      "new": "fnafmw:window",
+      "properties": {
+        "layout": "3"
+      },
+      "reason": "frame only on the outside edge of the 6x2 window"
+    },
+    {
+      "pos": [
+        17,
+        3,
+        6
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:brown_facade_bricks",
+      "properties": {},
+      "reason": "close the 3rd (top) row of a 2-wide backstage door opening"
+    },
+    {
+      "pos": [
+        18,
+        3,
+        6
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "fnafmw:brown_facade_bricks",
+      "properties": {},
+      "reason": "close the 3rd (top) row of a 2-wide backstage door opening"
+    },
+    {
+      "pos": [
+        15,
+        3,
+        8
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "minecraft:stripped_spruce_log",
+      "properties": {},
+      "reason": "close the 3rd (top) row of a 2-wide backstage door opening"
+    },
+    {
+      "pos": [
+        15,
+        3,
+        9
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "minecraft:stripped_spruce_log",
+      "properties": {},
+      "reason": "close the 3rd (top) row of a 2-wide backstage door opening"
+    },
+    {
+      "pos": [
+        20,
+        3,
+        8
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "minecraft:stripped_spruce_log",
+      "properties": {},
+      "reason": "close the 3rd (top) row of a 2-wide backstage door opening"
+    },
+    {
+      "pos": [
+        20,
+        3,
+        9
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "minecraft:stripped_spruce_log",
+      "properties": {},
+      "reason": "close the 3rd (top) row of a 2-wide backstage door opening"
+    },
+    {
+      "pos": [
+        20,
+        3,
+        15
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "minecraft:stripped_spruce_log",
+      "properties": {},
+      "reason": "close the 3rd (top) row of a 2-wide backstage door opening"
+    },
+    {
+      "pos": [
+        20,
+        3,
+        16
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "minecraft:stripped_spruce_log",
+      "properties": {},
+      "reason": "close the 3rd (top) row of a 2-wide backstage door opening"
+    },
+    {
+      "pos": [
+        20,
+        3,
+        24
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "minecraft:stripped_spruce_log",
+      "properties": {},
+      "reason": "close the 3rd (top) row of a 2-wide backstage door opening"
+    },
+    {
+      "pos": [
+        20,
+        3,
+        25
+      ],
+      "old": "minecraft:air",
+      "action": "replace",
+      "new": "minecraft:stripped_spruce_log",
+      "properties": {},
+      "reason": "close the 3rd (top) row of a 2-wide backstage door opening"
+    },
+    {
+      "pos": [
+        11,
+        1,
+        16
+      ],
+      "old": "management_wanted:out_of_order_sign",
+      "action": "replace",
+      "new": "fnafmw:out_of_order_sign",
+      "properties": {
+        "rotation": "8",
+        "wall": "false"
+      },
+      "reason": "standing sign; text must face south (old facing=south, y=180 -> rotation=8)"
+    },
+    {
+      "pos": [
+        6,
+        4,
+        26
+      ],
+      "old": "management_wanted:exit_sign",
+      "action": "replace",
+      "new": "fnafmw:exit_sign",
+      "properties": {
+        "rotation": "0",
+        "wall": "true",
+        "black": "false",
+        "centered": "false"
+      },
+      "reason": "wall sign on the inside of the front wall, faces north (y=0 -> rotation=0)"
+    }
+  ],
+  "doors": [
+    {
+      "pos": [
+        5,
+        1,
+        12
+      ],
+      "kind": "single",
+      "facing": "north",
+      "hinge": "right",
+      "reason": "staff door in the z=12 log wall, 1x2 opening; upper half at (5,2,12). facing/hinge unchanged (same vanilla door table)"
+    },
+    {
+      "pos": [
+        17,
+        1,
+        6
+      ],
+      "kind": "double",
+      "facing": "north",
+      "leaves": [
+        {
+          "pos": [
+            17,
+            1,
+            6
+          ],
+          "hinge": "right"
+        },
+        {
+          "pos": [
+            18,
+            1,
+            6
+          ],
+          "hinge": "left"
+        }
+      ],
+      "reason": "old backstage_door at (18,2,6); 2-wide opening x=17..18 in the z=6 brick wall"
+    },
+    {
+      "pos": [
+        15,
+        1,
+        8
+      ],
+      "kind": "double",
+      "facing": "east",
+      "leaves": [
+        {
+          "pos": [
+            15,
+            1,
+            8
+          ],
+          "hinge": "left"
+        },
+        {
+          "pos": [
+            15,
+            1,
+            9
+          ],
+          "hinge": "right"
+        }
+      ],
+      "reason": "old backstage_door at (15,2,9); 2-wide opening z=8..9 in the x=15 log wall"
+    },
+    {
+      "pos": [
+        20,
+        1,
+        8
+      ],
+      "kind": "double",
+      "facing": "west",
+      "leaves": [
+        {
+          "pos": [
+            20,
+            1,
+            8
+          ],
+          "hinge": "right"
+        },
+        {
+          "pos": [
+            20,
+            1,
+            9
+          ],
+          "hinge": "left"
+        }
+      ],
+      "reason": "old backstage_door at (20,2,8); 2-wide opening z=8..9 in the x=20 log wall"
+    },
+    {
+      "pos": [
+        20,
+        1,
+        15
+      ],
+      "kind": "double",
+      "facing": "west",
+      "leaves": [
+        {
+          "pos": [
+            20,
+            1,
+            15
+          ],
+          "hinge": "right"
+        },
+        {
+          "pos": [
+            20,
+            1,
+            16
+          ],
+          "hinge": "left"
+        }
+      ],
+      "reason": "old backstage_door at (20,2,15); 2-wide opening z=15..16"
+    },
+    {
+      "pos": [
+        20,
+        1,
+        24
+      ],
+      "kind": "double",
+      "facing": "west",
+      "leaves": [
+        {
+          "pos": [
+            20,
+            1,
+            24
+          ],
+          "hinge": "right"
+        },
+        {
+          "pos": [
+            20,
+            1,
+            25
+          ],
+          "hinge": "left"
+        }
+      ],
+      "reason": "old backstage_door at (20,2,24); 2-wide opening z=24..25"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        27
+      ],
+      "kind": "big_entrance",
+      "facing": "south",
+      "reason": "front entrance x=5..7, y=1..3, faces south (outside). Origin must be the BOTTOM-centre block: the old single door block was at (6,2,27), one block higher than the origin. Runtime expands 15 parts; its back layer lands at z=26 (air)."
+    }
+  ],
+  "notes": [
+    "Exactly one door per opening: old staff_door/backstage_door/big_entrance_door blocks are removed and all doors come from this list.",
+    "5 old custom backstage doors (2 wide, 3 tall, one block) become 2-leaf standard doors 2 wide x 2 tall; the 3rd row is filled with the wall material.",
+    "The old 4x2 wood tables become 3x3 modular party tables (3 cells placed into air, 1 old column removed per table).",
+    "fnafmw:locker is 2 blocks tall in one block, so the old locker_void upper halves are air.",
+    "No shelf/counter block exists in the new mod: metal_shelf/backstage_shelf/utility_shelf/storage_shelf are air.",
+    "fnafmw:window has no facing (only layout); layouts are set per cell for the 6x2 front window.",
+    "Most new directional blocks use facing = wall side (y=0 at facing=south), the old ones facing = front side, so those facing_maps are inverted; employee_door and terminal are identical.",
+    "South-facing big entrance door origin is y=1, not the old block y=2 (see doors reason).",
+    "Red cap: structure-level runtime rotation is not modelled; fnafmw:window has no facing and would not follow a 90 degree rotation."
+  ]
+}

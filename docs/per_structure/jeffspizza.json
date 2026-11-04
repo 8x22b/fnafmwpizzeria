@@ -1,0 +1,393 @@
+{
+  "structure": "jeffspizza",
+  "block_overrides": {
+    "management_wanted:window_bottom_left": "minecraft:light_gray_stained_glass",
+    "management_wanted:window_bottom_mid": "minecraft:light_gray_stained_glass",
+    "management_wanted:window_bottom_right": "minecraft:light_gray_stained_glass",
+    "management_wanted:window_middle": "minecraft:light_gray_stained_glass",
+    "management_wanted:window_middle_left": "minecraft:light_gray_stained_glass",
+    "management_wanted:window_middle_right": "minecraft:light_gray_stained_glass",
+    "management_wanted:window_top_left": "minecraft:light_gray_stained_glass",
+    "management_wanted:window_top_mid": "minecraft:light_gray_stained_glass",
+    "management_wanted:window_top_right": "minecraft:light_gray_stained_glass",
+    "minecraft:grass": "minecraft:short_grass"
+  },
+  "property_rules": {
+    "management_wanted:locker": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"},
+      "drop": ["blockstate"]
+    },
+    "management_wanted:locker_void": {
+      "drop": ["facing"]
+    },
+    "management_wanted:backstage_shelf": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"}
+    },
+    "management_wanted:cardboard_box": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"},
+      "set": {"variant": "1", "open": "false"},
+      "drop": ["blockstate"]
+    },
+    "management_wanted:small_cardboard_box": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"},
+      "set": {"variant": "1"}
+    },
+    "management_wanted:children_drawings": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"},
+      "set": {"variant": "0"}
+    },
+    "management_wanted:fnaf_1_poster_freddy_jaw": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"}
+    },
+    "management_wanted:fright_poster": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"},
+      "drop": ["blockstate"]
+    },
+    "management_wanted:gumball_machine": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"}
+    },
+    "management_wanted:hanging_lamp": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"},
+      "set": {"face": "ceiling", "lit": "true", "powered": "false"}
+    },
+    "management_wanted:jeffs_pizza_sign": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"},
+      "set": {"lit": "true", "powered": "false"},
+      "drop": ["animation"]
+    },
+    "management_wanted:monitor": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"},
+      "set": {"alt": "1", "monitors": "1"},
+      "drop": ["blockstate"]
+    },
+    "management_wanted:open_neon_sign": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"},
+      "set": {"alt": "false", "lit": "true", "powered": "false"},
+      "drop": ["animation", "blockstate"]
+    },
+    "management_wanted:paper_pal": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"}
+    },
+    "management_wanted:safety_rules": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"}
+    },
+    "management_wanted:wall_wires_thin": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"},
+      "set": {"variant": "main"}
+    },
+    "management_wanted:arcade_bottom": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"}
+    },
+    "management_wanted:arcade_top": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"}
+    },
+    "management_wanted:polybius_arcade_bottom": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"}
+    },
+    "management_wanted:polybius_arcade_top": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"}
+    },
+    "management_wanted:vending_machine": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"},
+      "drop": ["animation"]
+    },
+    "management_wanted:laptop": {
+      "set": {"lit": "true"}
+    },
+    "management_wanted:light_switch_on": {
+      "set": {"face": "wall", "powered": "false"}
+    },
+    "management_wanted:normal_light": {
+      "set": {"lit": "false", "powered": "false"}
+    },
+    "management_wanted:normal_light_on": {
+      "set": {"lit": "true", "powered": "true"}
+    },
+    "management_wanted:fan_on": {
+      "facing_map": {"north": "south", "east": "west", "south": "north", "west": "east"},
+      "set": {"lit": "true", "powered": "false"},
+      "drop": ["blockstate"]
+    },
+    "management_wanted:stage_lights_blue": {
+      "set": {"face": "wall", "facing": "south", "color": "blue", "lit": "true", "powered": "false", "rotation_lock": "false"},
+      "drop": ["blockstate", "animation"]
+    },
+    "management_wanted:pizzeria_door": {
+      "drop": ["powered"]
+    },
+    "management_wanted:backstage_door": {
+      "drop": ["animation"]
+    },
+    "management_wanted:backstage_door_open": {
+      "drop": ["animation"]
+    },
+    "management_wanted:big_entrance_door": {
+      "drop": ["animation"]
+    },
+    "management_wanted:party_table_vertical_bottom": {"set": {"modular_type": "1"}},
+    "management_wanted:party_table_vertical_middle": {"set": {"modular_type": "5"}},
+    "management_wanted:party_table_vertical_top": {"set": {"modular_type": "4"}},
+    "management_wanted:party_table_bottom_left": {"set": {"modular_type": "3"}},
+    "management_wanted:party_table_middle_left": {"set": {"modular_type": "7"}},
+    "management_wanted:party_table_top_left": {"set": {"modular_type": "6"}},
+    "management_wanted:party_table_bottom_right": {"set": {"modular_type": "9"}},
+    "management_wanted:party_table_middle_right": {"set": {"modular_type": "13"}},
+    "management_wanted:party_table_top_right": {"set": {"modular_type": "12"}},
+    "management_wanted:backstage_table_left": {"set": {"modular_type": "1"}},
+    "management_wanted:backstage_table_middle": {"set": {"modular_type": "5"}},
+    "management_wanted:backstage_table_right": {"set": {"modular_type": "4"}}
+  },
+  "position_fixes": [
+    {
+      "pos": [6, 2, 17],
+      "old": "management_wanted:backstage_door",
+      "action": "replace",
+      "new": "fnafmw:employee_door",
+      "properties": {"facing": "east", "half": "upper", "hinge": "right", "open": "false"},
+      "reason": "old 1-block custom backstage door becomes the upper half of the east/west-facing double door in the 2-wide opening z=16..17; lower leaves at y=1 come from the doors entry"
+    },
+    {
+      "pos": [9, 2, 23],
+      "old": "management_wanted:backstage_door",
+      "action": "replace",
+      "new": "fnafmw:employee_door",
+      "properties": {"facing": "south", "half": "upper", "hinge": "right", "open": "false"},
+      "reason": "upper half of the 2-wide south-facing double door in the opening x=9..10 at z=23"
+    },
+    {
+      "pos": [10, 2, 13],
+      "old": "management_wanted:backstage_door",
+      "action": "replace",
+      "new": "fnafmw:employee_door",
+      "properties": {"facing": "south", "half": "upper", "hinge": "right", "open": "false"},
+      "reason": "upper half of the 2-wide south-facing double door in the opening x=10..11 at z=13"
+    },
+    {
+      "pos": [13, 2, 20],
+      "old": "management_wanted:backstage_door",
+      "action": "replace",
+      "new": "fnafmw:employee_door",
+      "properties": {"facing": "east", "half": "upper", "hinge": "right", "open": "false"},
+      "reason": "upper half of the 2-wide east-facing double door in the opening z=19..20 at x=13"
+    },
+    {
+      "pos": [13, 2, 26],
+      "old": "management_wanted:backstage_door",
+      "action": "replace",
+      "new": "fnafmw:employee_door",
+      "properties": {"facing": "east", "half": "upper", "hinge": "right", "open": "false"},
+      "reason": "upper half of the 2-wide east-facing double door in the opening z=25..26 at x=13"
+    },
+    {
+      "pos": [20, 2, 15],
+      "old": "management_wanted:backstage_door",
+      "action": "replace",
+      "new": "fnafmw:employee_door",
+      "properties": {"facing": "east", "half": "upper", "hinge": "right", "open": "false"},
+      "reason": "upper half of the 2-wide east-facing double door in the opening z=14..15 at x=20"
+    },
+    {
+      "pos": [20, 2, 22],
+      "old": "management_wanted:backstage_door",
+      "action": "replace",
+      "new": "fnafmw:employee_door",
+      "properties": {"facing": "east", "half": "upper", "hinge": "right", "open": "false"},
+      "reason": "upper half of the 2-wide east-facing double door in the opening z=21..22 at x=20"
+    },
+    {
+      "pos": [26, 2, 32],
+      "old": "management_wanted:backstage_door_open",
+      "action": "replace",
+      "new": "fnafmw:employee_door",
+      "properties": {"facing": "south", "half": "upper", "hinge": "right", "open": "true"},
+      "reason": "old open backstage door; upper half of the 2-wide south-facing double door in the opening x=26..27 at z=32, left open"
+    },
+    {
+      "pos": [30, 2, 37],
+      "old": "management_wanted:big_entrance_door",
+      "action": "replace",
+      "new": "fnafmw:big_entrance_door",
+      "properties": {"facing": "east", "open": "false", "part": "4"},
+      "reason": "old 1-block entrance model is 3x3; the new door renders its whole model on part=4, which sits one block above the origin [30,1,37]. Origin/opening is z=36..38, y=1..3"
+    },
+    {
+      "pos": [7, 2, 9],
+      "old": "management_wanted:monitor",
+      "action": "replace",
+      "new": "fnafmw:classic_monitor",
+      "properties": {"facing": "west", "alt": "1", "monitors": "2"},
+      "reason": "old blockstate=1 was two stacked monitors; facing east->west (new monitor blockstate is 180 deg opposite)"
+    },
+    {
+      "pos": [7, 2, 7],
+      "old": "management_wanted:monitor",
+      "action": "replace",
+      "new": "fnafmw:classic_monitor",
+      "properties": {"facing": "west", "alt": "1", "monitors": "4"},
+      "reason": "old blockstate=3 was a 4-monitor stack; facing east->west"
+    },
+    {
+      "pos": [7, 1, 18],
+      "old": "management_wanted:monitor",
+      "action": "replace",
+      "new": "fnafmw:classic_monitor",
+      "properties": {"facing": "west", "alt": "1", "monitors": "4"},
+      "reason": "old blockstate=4 (largest stack) clamped to new max monitors=4; facing east->west"
+    },
+    {
+      "pos": [7, 3, 19],
+      "old": "management_wanted:monitor",
+      "action": "replace",
+      "new": "fnafmw:classic_monitor",
+      "properties": {"facing": "west", "alt": "1", "monitors": "1"},
+      "reason": "old blockstate=0 single monitor; facing east->west"
+    },
+    {
+      "pos": [12, 2, 17],
+      "old": "management_wanted:monitor",
+      "action": "replace",
+      "new": "fnafmw:classic_monitor",
+      "properties": {"facing": "east", "alt": "1", "monitors": "3"},
+      "reason": "old blockstate=2 three stacked monitors; facing west->east"
+    },
+    {
+      "pos": [29, 1, 6],
+      "old": "management_wanted:cardboard_box",
+      "action": "replace",
+      "new": "fnafmw:large_cardboard_box",
+      "properties": {"facing": "east", "variant": "1", "open": "true"},
+      "reason": "only old blockstate=1 box (open box in the old model); keep it open"
+    },
+    {
+      "pos": [21, 1, 5],
+      "old": "management_wanted:speaker",
+      "action": "replace",
+      "new": "fnafmw:classic_speaker",
+      "properties": {"rotation": "2"},
+      "reason": "new speaker has no facing, only rotation 0-7 (45 deg steps); rotation=2 is y=90, matching old facing=east"
+    },
+    {
+      "pos": [7, 4, 16],
+      "old": "management_wanted:exit_sign",
+      "action": "replace",
+      "new": "fnafmw:exit_sign",
+      "properties": {"rotation": "4", "wall": "true", "centered": "false", "black": "false"},
+      "reason": "new exit sign has rotation 0-15 (22.5 deg steps) + wall; rotation=4 is y=90 matching old facing=east, wall model matches the old sign mounted at the block edge"
+    },
+    {
+      "pos": [24, 1, 29],
+      "old": "management_wanted:out_of_order_sign",
+      "action": "replace",
+      "new": "fnafmw:out_of_order_sign",
+      "properties": {"rotation": "4", "wall": "false"},
+      "reason": "free-standing sign in the open party room; old facing=east -> rotation=4 (y=90). wall=false because the old model is centred, not wall-mounted"
+    }
+  ],
+  "doors": [
+    {
+      "pos": [13, 1, 37],
+      "kind": "double",
+      "facing": "east",
+      "positions": [[13, 1, 37], [13, 1, 38]],
+      "hinges": ["left", "right"],
+      "reason": "west facade pizzeria double door, 2 wide (z=37,38) x 2 tall; glass transom at y=3 stays. Old pizzeria_door maps 1:1 to fnafmw:entrance_door (identical facing/half/hinge table)"
+    },
+    {
+      "pos": [23, 1, 37],
+      "kind": "double",
+      "facing": "west",
+      "positions": [[23, 1, 37], [23, 1, 38]],
+      "hinges": ["right", "left"],
+      "reason": "east facade pizzeria double door, 2 wide (z=37,38) x 2 tall; glass transom at y=3 stays"
+    },
+    {
+      "pos": [6, 1, 16],
+      "kind": "double",
+      "facing": "east",
+      "positions": [[6, 1, 16], [6, 1, 17]],
+      "hinges": ["left", "right"],
+      "reason": "backstage office door in the west wall x=6, opening z=16..17, 3 tall; old single custom block at [6,2,17] was 2 wide"
+    },
+    {
+      "pos": [9, 1, 23],
+      "kind": "double",
+      "facing": "south",
+      "positions": [[9, 1, 23], [10, 1, 23]],
+      "hinges": ["right", "left"],
+      "reason": "backstage door in the z=23 wall, opening x=9..10, 3 tall"
+    },
+    {
+      "pos": [10, 1, 13],
+      "kind": "double",
+      "facing": "south",
+      "positions": [[10, 1, 13], [11, 1, 13]],
+      "hinges": ["right", "left"],
+      "reason": "backstage door in the z=13 facade wall, opening x=10..11, 3 tall"
+    },
+    {
+      "pos": [13, 1, 19],
+      "kind": "double",
+      "facing": "east",
+      "positions": [[13, 1, 19], [13, 1, 20]],
+      "hinges": ["left", "right"],
+      "reason": "backstage door in the x=13 wall, opening z=19..20, 3 tall"
+    },
+    {
+      "pos": [13, 1, 25],
+      "kind": "double",
+      "facing": "east",
+      "positions": [[13, 1, 25], [13, 1, 26]],
+      "hinges": ["left", "right"],
+      "reason": "backstage door in the x=13 wall, opening z=25..26, 3 tall"
+    },
+    {
+      "pos": [20, 1, 14],
+      "kind": "double",
+      "facing": "east",
+      "positions": [[20, 1, 14], [20, 1, 15]],
+      "hinges": ["left", "right"],
+      "reason": "backstage door in the x=20 wall, opening z=14..15, 3 tall"
+    },
+    {
+      "pos": [20, 1, 21],
+      "kind": "double",
+      "facing": "east",
+      "positions": [[20, 1, 21], [20, 1, 22]],
+      "hinges": ["left", "right"],
+      "reason": "backstage door in the x=20 wall, opening z=21..22, 3 tall"
+    },
+    {
+      "pos": [26, 1, 32],
+      "kind": "double",
+      "facing": "south",
+      "positions": [[26, 1, 32], [27, 1, 32]],
+      "hinges": ["right", "left"],
+      "open": true,
+      "reason": "open backstage door in the z=32 wall, opening x=26..27, 3 tall; left open"
+    },
+    {
+      "pos": [30, 1, 37],
+      "kind": "big_entrance",
+      "facing": "east",
+      "width": 3,
+      "height": 3,
+      "old_pos": [30, 2, 37],
+      "reason": "front entrance on the east facade, 3 wide (z=36..38) x 3 tall (y=1..3). Origin is one block lower than the old 1-block anchor; facing east. Runtime expands parts 0-14"
+    }
+  ],
+  "notes": [
+    "Structure size 33x17x43. Floors at y=1, walls y=1..4, facade east wall at x=30, west wall at x=6/13/23.",
+    "11 real openings: 2 pizzeria double doors (x=13 and x=23, z=37..38), 8 backstage double doors (7 closed + 1 open), 1 big 3x3 entrance at x=30, z=36..38. No other doors in this structure.",
+    "All 9 backstage/pizzeria door openings are exactly 2 wide. The old custom backstage doors were ONE block that rendered a 2-wide 3-tall door; each is now two fnafmw:employee_door leaves (lower y=1, upper y=2) plus the existing 1-block gap at y=3 under the wall above.",
+    "Old pizzeria_door has an identical blockstate table to fnafmw:entrance_door, so all four property values (facing/half/hinge/open) are preserved unchanged; only old 'powered' is dropped.",
+    "Double-door hinge rule taken from the map's own pizzeria pairs: the leaf on Direction.rotateYCCW(facing) gets hinge=left (east -> north leaf left; west -> south leaf left). Applied to all backstage pairs.",
+    "The new big_entrance_door origin is the BOTTOM-left part (part=0), 3 wide/3 tall, model on part=4. The old anchor was the middle block at y=2, so the origin moved to y=1; part=4 then lands back on [30,2,37].",
+    "MOST NEW facing BLOCKS ARE 180 DEGREES OPPOSITE THE OLD NAMES (new facing = the wall/back side). Verified from blockstate y-rotations AND model geometry: locker, cardboard boxes, posters, hazard sign, wires, monitor, neon sign, vending machine, arcades, gumball, paper_pal, hanging lamp, desk fan. facing_map north<->south, east<->west applied to those.",
+    "Blocks that keep the old facing unchanged: chairs (identical model), diner booth, laptop/terminal, light switch (face=wall), ceiling tile stairs (identical stairs table), entrance/employee doors.",
+    "No rotation_y offsets were needed: after the facing_map, every new blockstate variant produces the same y rotation as the old one (checked model-by-model). Rotation-capable blocks without a facing property use position_fixes: classic_speaker rotation=2, exit_sign rotation=4/wall=true, out_of_order_sign rotation=4/wall=false.",
+    "Old window_* parts are REMAPPED to minecraft:light_gray_stained_glass instead of fnafmw:window: the new window model is a north/south-facing pane (glass at z=2/z=14), but all 37 windows are in the x=30 EAST facade (X-normal wall) and the new block has no facing/layout rotation for that. Glass keeps the 6x3 openings and matches the glass transoms already used above the pizzeria doors.",
+    "party_table modular_type set by old part name (models are geometrically identical): vertical_bottom=1, vertical_middle=5, vertical_top=4, bottom_left=3, middle_left=7, top_left=6, bottom_right=9, middle_right=13, top_right=12. The 3 backstage_table parts use the 3-long vertical run (left=1, middle=5, right=4).",
+    "minecraft:grass (removed in 1.21) remapped to minecraft:short_grass.",
+    "Remaining risks: (1) 2-tall standard doors leave the top block (y=3) of the 3-tall backstage openings empty; big_employee_door would fill it but is 2 blocks deep and would eat into the rooms. (2) hinge left/right is a texture mirror only (vanilla door geometry is identical), so a flipped hinge is cosmetic. (3) stagelight is a BER block; FACE/FACING/colour were set but cannot be visually verified. (4) basic_light_warm is a modular connected light; neighbour flags were left default. (5) brown_facade_bricks_trim face left at default floor; old texture differed. (6) windows lose the old frame detailing."
+  ]
+}
