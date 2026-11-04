@@ -21,8 +21,9 @@ structures and assets. Those materials remain the property of their
 respective owners.
 
 They are included here only so the addon can be used with FNAFMW.
-Do not sell this repository or the converted assets, and do not remove
-this notice when redistributing the addon.
+Do not sell the converted structures/assets, and do not remove this
+notice when redistributing the addon. The original addon code remains
+MIT-licensed as described in `LICENSE`.
 
 Five Nights at Freddy's and its characters are the property of
 **Scott Cawthon**.
